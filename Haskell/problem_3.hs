@@ -9,3 +9,5 @@ isPrime x = if (length(fact x) == 1) then True else False
 
 --Filter the small factor list for prime numbers and return largest
 largeFactPrime x = last (filter isPrime (fact x))
+
+main = print (largeFactPrime 600851475143)
