@@ -1,3 +1,7 @@
+-- This likely doesn't need a palindrome function or be so many lines
+-- But a palindrome function is nessasiry for problem 6 so I will re-write
+-- at a future date, it's also very slow.
+
 import Data.List
 
 toList :: Integral x => x -> [x]
